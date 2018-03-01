@@ -1,0 +1,6 @@
+D G "__PCM__" 0 5 ""4.084""
+D G "__DEVICE__" 0 5 ""
+D G "__DATE__" 0 5 ""20-Thg1-18""
+D G "__TIME__" 0 5 ""15:30:39""
+D G "PIN_SCL" 0 1 "PIN_B4"
+D G "PIN_SDA" 0 2 "PIN_B1"

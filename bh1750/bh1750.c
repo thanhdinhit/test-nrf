@@ -37,12 +37,12 @@ unsigned long BH1750_read_word()
 
 unsigned long get_lux_value(unsigned char mode, unsigned long delay_time) 
 { 
-   register unsigned long lux_value = 0;  
+   register unsigned long lux_valu = 0;  
    BH1750_write(power_up); 
    BH1750_write(mode); 
-   lux_value = BH1750_read_word(); 
+   lux_valu = BH1750_read_word(); 
    delay_ms(delay_time); 
    BH1750_write(power_down); 
-   return lux_value;                                  
+   return lux_valu;                                  
 }   
 #endif /*bh1750_C*/

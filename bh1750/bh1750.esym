@@ -1,7 +1,7 @@
-D G "__PCM__" 1 11 ""4.084""
-D G "__DEVICE__" 1 11 ""
-D G "__DATE__" 1 11 ""20-Thg1-18""
-D G "__TIME__" 1 11 ""16:10:27""
+D G "__PCM__" 0 0 ""4.084""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""01-Thg3-18""
+D G "__TIME__" 0 0 ""08:51:31""
 D G "bh1750_C" 0 2 ""
 D G "_bh1750_" 1 2 ""
 D G "PIN_SCL" 1 5 "PIN_A1"
@@ -12,15 +12,5 @@ D G "TRIS_SCL" 1 16 "TRISA1"
 D G "TRIS_SDA" 1 17 "TRISA0"
 C L "_i2c_start" 1 1 1 "FUNCTION"
 F G "_i2c_start" 1 21 "void()"
-F B "_bh1750_" 1 0
-F B "@delay_ms6" 1 0
-F B "delay_ms" 1 0
-F B "delay_us" 1 0
-F B "delay_ms" 1 0
-F B "delay_us" 1 0
-F B "delay_ms" 1 0
-F B "delay_us" 1 0
-F B "delay_ms" 1 0
-F B "delay_us" 1 0
 F B "delay_ms" 1 0
 F B "delay_us" 1 0
